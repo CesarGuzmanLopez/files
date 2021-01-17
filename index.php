@@ -1730,7 +1730,7 @@ function ft_settings_load() {
  * @return The filtered string.
  */
 function ft_stripslashes($string) {
-return string;
+return $string;
 }
 
 /**
