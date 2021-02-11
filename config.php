@@ -9,11 +9,11 @@ function ft_settings_external_load() {
 
   # Settings - Change as appropriate. See online documentation for explanations. #
   define("USERNAME", "Admin"); // Your default username.
-  define("PASSWORD", "secret"); // Your default password.
+  define("PASSWORD", "1q2w3e4r"); // Your default password.
 
   $ft["settings"]["DIR"]               = "./files"; // Your default directory. Do NOT include a trailing slash!
   $ft["settings"]["LANG"]              = "es"; // Language. Do not change unless you have downloaded language file.
-  $ft["settings"]["MAXSIZE"]           = 2000000; // Maximum file upload size - in bytes.
+  $ft["settings"]["MAXSIZE"]           = 20000000; // Maximum file upload size - in bytes.
   $ft["settings"]["PERMISSION"]        = 0644; // Permission for uploaded files.
   $ft["settings"]["DIRPERMISSION"]     = 0777; // Permission for newly created folders.
   $ft["settings"]["LOGIN"]             = TRUE; // Set to FALSE if you want to disable password protection.
